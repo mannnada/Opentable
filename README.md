@@ -60,11 +60,15 @@ BookTable is an end-to-end restaurant reservation application similar to OpenTab
   - AWS EC2 Auto-Scaled Cluster with Load Balancer
 
 ### Architecture Diagrams
-- Component Diagram: # BookTable Component Architecture
+- Component Diagram: # BookTable Component Architecture # BookTable Component Architecture
 
 ![BookTable Component Architecture](./docs/images/component-diagram.svg)
 
 This component diagram illustrates the architecture of our BookTable reservation application. The frontend leverages React 18 with TypeScript, Vite, and Tailwind CSS for the UI layer, with Zustand managing state and React Router handling navigation. The backend utilizes Supabase for authentication, database, and storage, while the deployment infrastructure runs on AWS with auto-scaling EC2 instances, S3 for static assets, and CloudFront CDN.
+
+![BookTable Component Architecture](./docs/images/component-diagram.svg)
+
+
 ![image](https://github.com/user-attachments/assets/23690870-9e63-4ea6-9375-e35df7decd61)
 
 - Deployment Diagram: [See below or link to image]
