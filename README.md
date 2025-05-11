@@ -61,6 +61,8 @@ BookTable is an end-to-end restaurant reservation application similar to OpenTab
 
 ### Architecture Diagrams
 - Component Diagram: [See below or link to image]
+![image](https://github.com/user-attachments/assets/23690870-9e63-4ea6-9375-e35df7decd61)
+
 - Deployment Diagram: [See below or link to image]
 
 ### UI Wireframes
