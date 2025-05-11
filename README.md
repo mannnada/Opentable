@@ -65,6 +65,8 @@ This component diagram illustrates the architecture of our BookTable reservation
 ![image](https://github.com/user-attachments/assets/a4d066fe-8715-418f-a488-02d7de417112)
 
 - Deployment Diagram: [See below or link to image]
+![image](https://github.com/user-attachments/assets/6ba160ef-5058-4a5b-91a4-5f227eb8a262)
+
 
 ### UI Wireframes
 [Link to wireframes folder or embedded images]
