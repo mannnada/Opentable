@@ -17,7 +17,7 @@ BookTable is an end-to-end restaurant reservation application similar to OpenTab
 
 ## Links
 - [Project Journal](https://docs.google.com/document/d/1EjQj-mZ5t8NCFZjNkJTsHAGpv7AYtcZtDGQ5yq53YWc/edit?usp=sharing)
-- [Product & Sprint Backlog](link-to-your-google-sheet-or-project-board)
+- [Product & Sprint Backlog](https://docs.google.com/spreadsheets/d/1iD2uDq-CfOlZMXjbR0RR1-VTIMA1FaoHdvj7BhhbBGs/edit?usp=sharing)
 
 ## Feature Set
 
