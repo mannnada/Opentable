@@ -51,7 +51,6 @@ BookTable is an end-to-end restaurant reservation application similar to OpenTab
 
 
 
-## 📁 Project Structure
 
 A quick overview of the folder structure of the `booktable-application`:
 
