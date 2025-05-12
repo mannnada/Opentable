@@ -46,86 +46,80 @@ BookTable is an end-to-end restaurant reservation application similar to OpenTab
 
 ## Project Structure
 
-booktable-application/
-├── public/
-│   └── table-icon.svg
-├── src/
-│   ├── components/
-│   │   ├── common/
-│   │   │   ├── Button.tsx
-│   │   │   ├── Card.tsx
-│   │   │   ├── Input.tsx
-│   │   │   └── Modal.tsx
-│   │   ├── layout/
-│   │   │   ├── Header.tsx
-│   │   │   ├── Footer.tsx
-│   │   │   └── Sidebar.tsx
-│   │   ├── restaurant/
-│   │   │   ├── RestaurantCard.tsx
-│   │   │   ├── ReservationForm.tsx
-│   │   │   ├── ReviewsList.tsx
-│   │   │   └── TimeSlotPicker.tsx
-│   │   ├── admin/
-│   │   │   ├── RestaurantApproval.tsx
-│   │   │   ├── AnalyticsDashboard.tsx
-│   │   │   └── UserManagement.tsx
-│   │   └── manager/
-│   │       ├── RestaurantForm.tsx
-│   │       ├── TableManagement.tsx
-│   │       └── BookingCalendar.tsx
-│   ├── pages/
-│   │   ├── Home.tsx
-│   │   ├── SearchResults.tsx
-│   │   ├── RestaurantDetails.tsx
-│   │   ├── BookingConfirmation.tsx
-│   │   ├── UserProfile.tsx
-│   │   ├── auth/
-│   │   │   ├── Login.tsx
-│   │   │   └── Register.tsx
-│   │   ├── manager/
-│   │   │   ├── Dashboard.tsx
-│   │   │   ├── EditRestaurant.tsx
-│   │   │   └── Reservations.tsx
-│   │   └── admin/
-│   │       ├── Dashboard.tsx
-│   │       ├── Restaurants.tsx
-│   │       └── Analytics.tsx
-│   ├── hooks/
-│   │   ├── useAuth.ts
-│   │   ├── useRestaurants.ts
-│   │   └── useReservations.ts
-│   ├── store/
-│   │   ├── authStore.ts
-│   │   ├── restaurantStore.ts
-│   │   └── reservationStore.ts
-│   ├── services/
-│   │   ├── api.ts
-│   │   ├── authService.ts
-│   │   ├── restaurantService.ts
-│   │   └── reservationService.ts
-│   ├── utils/
-│   │   ├── dateUtils.ts
-│   │   ├── validation.ts
-│   │   └── formatters.ts
-│   ├── types/
-│   │   ├── auth.types.ts
-│   │   ├── restaurant.types.ts
-│   │   └── reservation.types.ts
-│   ├── constants/
-│   │   ├── routes.ts
-│   │   └── api.ts
-│   ├── assets/
-│   ├── App.tsx
-│   ├── main.tsx
-│   └── supabase.ts
-├── .eslintrc.config.js
-├── index.html
-├── package.json
-├── postcss.config.js
-├── tailwind.config.js
-├── tsconfig.json
-├── vite.config.ts
-└── README.md
+
+
+
+
+
+## 📁 Project Structure
+
+A quick overview of the folder structure of the `booktable-application`:
+
+- **public/**  
+  Static assets like the table icon.
+
+- **src/**  
+  Main source code for the application.
+  
+  - **components/**  
+    Reusable UI components organized by feature.
+    
+    - **common/** – Generic UI components (Button, Card, Input, Modal)  
+    - **layout/** – Structural UI elements (Header, Footer, Sidebar)  
+    - **restaurant/** – Customer-facing restaurant features  
+    - **admin/** – Admin dashboard components  
+    - **manager/** – Manager tools like forms and calendars
+
+  - **pages/**  
+    Page-level React components corresponding to routes.
+    
+    - Home, SearchResults, RestaurantDetails, BookingConfirmation, UserProfile  
+    - **auth/** – Login and Register pages  
+    - **manager/** – Manager dashboard, restaurant editing, and reservations  
+    - **admin/** – Admin dashboard, restaurant approval, analytics
+
+  - **hooks/**  
+    Custom React hooks (authentication, restaurant data, reservations)
+
+  - **store/**  
+    Zustand stores for managing app state
+
+  - **services/**  
+    API and business logic layer
+
+  - **utils/**  
+    Utility functions (dates, validation, formatting)
+
+  - **types/**  
+    TypeScript interfaces and types
+
+  - **constants/**  
+    App-wide constants like routes and API paths
+
+  - **assets/**  
+    Static assets like images or fonts
+
+  - **App.tsx** – Main React component  
+  - **main.tsx** – App entry point  
+  - **supabase.ts** – Supabase client configuration
+
+- **.eslintrc.config.js** – Linting config  
+- **index.html** – Base HTML file  
+- **package.json** – Project metadata and dependencies  
+- **tailwind.config.js** – Tailwind CSS config  
+- **tsconfig.json** – TypeScript configuration  
+- **vite.config.ts** – Vite bundler config  
+- **README.md** – This file
+
+
+
+
+
+
+
+
+
+
 
 ### Technology Stack
 - **Frontend**: 
