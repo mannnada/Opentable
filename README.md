@@ -45,22 +45,6 @@ BookTable is an end-to-end restaurant reservation application similar to OpenTab
 ## Architecture & Design
 
 ## Project Structure
-  
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 booktable-application/
 ├── public/
@@ -142,31 +126,6 @@ booktable-application/
 ├── tsconfig.json
 ├── vite.config.ts
 └── README.md
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 ### Technology Stack
 - **Frontend**: 
