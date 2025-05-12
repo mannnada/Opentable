@@ -126,6 +126,7 @@ booktable-application/
 ├── tsconfig.json               # TypeScript configuration
 ├── vite.config.ts              # Vite configuration
 └── README.md                   # Project documentation
+
 ### Technology Stack
 - **Frontend**: 
   - React 18.3.1 with TypeScript
