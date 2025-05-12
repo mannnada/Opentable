@@ -62,7 +62,86 @@ BookTable is an end-to-end restaurant reservation application similar to OpenTab
 
 
 
-
+booktable-application/
+├── public/                     # Static assets
+│   └── table-icon.svg          # Application icon
+├── src/                        # Source code
+│   ├── components/             # Reusable UI components
+│   │   ├── common/             # Shared components
+│   │   │   ├── Button.tsx      # Button component
+│   │   │   ├── Card.tsx        # Card component
+│   │   │   ├── Input.tsx       # Input component
+│   │   │   └── Modal.tsx       # Modal component
+│   │   ├── layout/             # Layout components
+│   │   │   ├── Header.tsx      # App header
+│   │   │   ├── Footer.tsx      # App footer
+│   │   │   └── Sidebar.tsx     # Navigation sidebar
+│   │   ├── restaurant/         # Restaurant-specific components
+│   │   │   ├── RestaurantCard.tsx     # Restaurant listing card
+│   │   │   ├── ReservationForm.tsx    # Booking form
+│   │   │   ├── ReviewsList.tsx        # Restaurant reviews
+│   │   │   └── TimeSlotPicker.tsx     # Available time slots
+│   │   ├── admin/              # Admin components
+│   │   │   ├── RestaurantApproval.tsx # Restaurant approval
+│   │   │   ├── AnalyticsDashboard.tsx # Analytics dashboard
+│   │   │   └── UserManagement.tsx     # User management
+│   │   └── manager/            # Restaurant manager components
+│   │       ├── RestaurantForm.tsx     # Restaurant info form
+│   │       ├── TableManagement.tsx    # Table management
+│   │       └── BookingCalendar.tsx    # Booking overview
+│   ├── pages/                  # Application pages
+│   │   ├── Home.tsx            # Landing page
+│   │   ├── SearchResults.tsx   # Restaurant search results
+│   │   ├── RestaurantDetails.tsx # Individual restaurant page
+│   │   ├── BookingConfirmation.tsx # Booking confirmation
+│   │   ├── UserProfile.tsx     # User profile and bookings
+│   │   ├── auth/               # Authentication pages
+│   │   │   ├── Login.tsx       # Login page
+│   │   │   └── Register.tsx    # Registration page
+│   │   ├── manager/            # Restaurant manager pages
+│   │   │   ├── Dashboard.tsx   # Manager dashboard
+│   │   │   ├── EditRestaurant.tsx # Edit restaurant details
+│   │   │   └── Reservations.tsx # View/manage reservations
+│   │   └── admin/              # Admin pages
+│   │       ├── Dashboard.tsx   # Admin dashboard
+│   │       ├── Restaurants.tsx # Restaurant management
+│   │       └── Analytics.tsx   # Detailed analytics
+│   ├── hooks/                  # Custom React hooks
+│   │   ├── useAuth.ts          # Authentication hook
+│   │   ├── useRestaurants.ts   # Restaurant data hook
+│   │   └── useReservations.ts  # Reservation management hook
+│   ├── store/                  # Zustand state management
+│   │   ├── authStore.ts        # Authentication state
+│   │   ├── restaurantStore.ts  # Restaurant data state
+│   │   └── reservationStore.ts # Reservation state
+│   ├── services/               # API services
+│   │   ├── api.ts              # Base API configuration
+│   │   ├── authService.ts      # Authentication service
+│   │   ├── restaurantService.ts # Restaurant data service
+│   │   └── reservationService.ts # Reservation service
+│   ├── utils/                  # Utility functions
+│   │   ├── dateUtils.ts        # Date formatting utilities
+│   │   ├── validation.ts       # Form validation helpers
+│   │   └── formatters.ts       # Data formatting functions
+│   ├── types/                  # TypeScript type definitions
+│   │   ├── auth.types.ts       # Authentication types
+│   │   ├── restaurant.types.ts # Restaurant data types
+│   │   └── reservation.types.ts # Reservation types
+│   ├── constants/              # Application constants
+│   │   ├── routes.ts           # Route definitions
+│   │   └── api.ts              # API endpoints
+│   ├── assets/                 # Local assets (images, etc.)
+│   ├── App.tsx                 # Main application component
+│   ├── main.tsx                # Application entry point
+│   └── supabase.ts             # Supabase client setup
+├── .eslintrc.config.js         # ESLint configuration
+├── index.html                  # HTML entry point
+├── package.json                # Project dependencies
+├── postcss.config.js           # PostCSS configuration
+├── tailwind.config.js          # Tailwind CSS configuration
+├── tsconfig.json               # TypeScript configuration
+├── vite.config.ts              # Vite configuration
+└── README.md                   # Project documentation
 
 
 
