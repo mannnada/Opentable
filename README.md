@@ -171,7 +171,6 @@ booktable-application/
 
 
 
-
 ### Technology Stack
 - **Frontend**: 
   - React 18.3.1 with TypeScript
