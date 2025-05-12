@@ -42,8 +42,6 @@ BookTable is an end-to-end restaurant reservation application similar to OpenTab
 - Approve new restaurant listings
 - Access analytics dashboard for reservation data
 
-## Architecture & Design
-
 ## Project Structure
 
 
@@ -134,6 +132,7 @@ A quick overview of the folder structure of the `booktable-application`:
   - PostgreSQL (via Supabase)
 - **Deployment**: 
   - AWS EC2 Auto-Scaled Cluster with Load Balancer
+## Architecture & Design
 
 ### Architecture Diagrams
 - Component Diagram: # BookTable Component Architecture
