@@ -117,6 +117,7 @@ A quick overview of the folder structure of the `booktable-application`:
 
 
 
+## Architecture & Design
 
 ### Technology Stack
 - **Frontend**: 
@@ -132,7 +133,6 @@ A quick overview of the folder structure of the `booktable-application`:
   - PostgreSQL (via Supabase)
 - **Deployment**: 
   - AWS EC2 Auto-Scaled Cluster with Load Balancer
-## Architecture & Design
 
 ### Architecture Diagrams
 - Component Diagram: # BookTable Component Architecture
